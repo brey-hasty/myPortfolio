@@ -1,0 +1,27 @@
+/* *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}*/
+
+html{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+#nav-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ .logo-sz{
+    max-width: 200px;
+    height: auto;
+}
+
+nav{
+    padding-right: 2rem;
+    font-size: .75rem;
+}
+main,footer{
+    font-size: .75rem
+}
