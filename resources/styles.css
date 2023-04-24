@@ -1,27 +1,149 @@
-/* *{
+ *{
     margin: 0;
     border: 0;
     padding: 0;
-}*/
+}
 
 html{
     box-sizing: border-box;
     font-size: 20px;
+    padding: 1rem;
 }
 #nav-header{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-bottom: 1rem;
 }
- .logo-sz{
-    max-width: 200px;
+ .logo img{
+    max-width: 100px;
     height: auto;
 }
 
 nav{
     padding-right: 2rem;
-    font-size: .75rem;
+}
+nav a{
+    color: F58C90;
+    text-decoration: none;
+    font-size: .rem;
+    padding-left: 1rem;
+}
+a{
+    color:black;
 }
 main,footer{
     font-size: .75rem
+}
+.intro{
+    padding-top: 4rem;
+}
+
+.about-myworklink,
+.contact-me-about{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: .50rem;
+    font-size:.50rem;
+    width: 3rem;
+    height: 1rem;
+    border: 1px solid #f58c90;
+    border-radius: 10px;
+}
+.about-btns{
+    display: flex;
+    gap: .50rem;
+    padding-top:.55rem;
+    padding-left: 1rem;
+}
+
+.about-btns a{
+    color: white;
+    text-decoration: none;
+}
+.intro{
+    
+}
+.intro-me{
+    background-color:#484848;
+    width: 425px;
+    height: 150px;
+    padding-top: 2rem;;
+    padding-left: 3rem;
+}
+
+.intro-me h2 {
+    color: white;
+    padding-left: 1rem;
+    padding-top:.25rem;
+}
+
+.intro-me p{
+    width: 95%;
+    color: #f58c90;
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+.intro-me h5{
+    color:#f58c90;
+}
+
+ .about-me-section{
+   display: flex;
+   justify-content: end;
+    width: 95%;
+
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+
+}   
+
+.about-me-section a{
+    color:#f58c90;
+    
+}
+
+.about-me{
+    width: 50%;
+}
+.about-me h1{
+    color:#484848;
+    padding-bottom: 1rem;
+}
+.about-me p{
+    color: #f58c90;
+
+}
+.skills-section h2{
+    display: flex;
+    justify-content: center;
+    color:#fed2ca
+    
+}
+.skills-list{
+    display: flex;
+    justify-content: center;
+    color:#f58c90;
+    padding-top: 1rem;
+  
+}
+.skills-section li{
+    display: inline;
+    padding-left: 1.5rem;
+    list-style-type: circle;
+    
+   
+}
+.hi-text{
+    margin-bottom: 15px;
+ }
+
+.tab{
+    margin-left: 25px;
+}
+.works h2{
+    text-align: center;
+    color: #484848;
+    padding-top: 3rem;
 }
