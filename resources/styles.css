@@ -26,8 +26,9 @@ nav{
 nav a{
     color: F58C90;
     text-decoration: none;
-    font-size: .rem;
+    font-size: .75rem;
     padding-left: 1rem;
+    color: #f58c90;
 }
 a{
     color:black;
@@ -62,9 +63,7 @@ main,footer{
     color: white;
     text-decoration: none;
 }
-.intro{
-    
-}
+
 .intro-me{
     background-color:#484848;
     width: 425px;
